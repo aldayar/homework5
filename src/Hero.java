@@ -3,7 +3,13 @@ public class Hero {
     private int heroAttack=24;
     private String heroPower="unlimitedAmmo";
 
+    public Hero(int heroHealth, int heroAttack) {
+        this.heroHealth = heroHealth;
+        this.heroAttack = heroAttack;
+    }
+    public Hero(String forAll){
 
+    }
 
     public int getHeroHealth() {
         return heroHealth;
@@ -12,9 +18,9 @@ public class Hero {
     public int getHeroAttack() {
         return heroAttack;
     }
-    Hero(){
 
+    public String getHeroPower() {
+        return heroPower;
     }
-
 }
 
